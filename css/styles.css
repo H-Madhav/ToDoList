@@ -1,0 +1,240 @@
+/*-----Animation-----
+-------------------*/
+body{
+	background: #cccbcb;
+}
+div.container{
+width: 600px;
+height: auto;
+margin: 40px auto auto;
+padding: 20px;
+	background: #fff;
+	
+}
+.box{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border:solid 1px #fff;
+	line-height: 100px;
+	text-align: center;
+	color: #fff;
+	
+	}
+
+#box1{
+	background: blue;
+}
+#box2{
+	background: #89fb24;
+}
+#box3{
+	background: red;
+}
+#box4{
+	background: black;
+}
+.box:hover{
+	cursor: pointer;
+}
+#droppable{
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	line-height: 300px;
+	background: black;
+	color: white;
+	margin: 20px auto auto;
+	
+}
+ul{
+	width: 48%;
+	float: left;
+	margin: 0;
+	padding: 0 1%;
+	list-style: none;
+}
+ul li{
+	background: #eee;
+	padding: 10px;
+	margin: 2px 0;
+	border: solid 1px #ccc;
+}
+ul li:hover{
+background: #ddd;
+	border-color: #aaa;
+	cursor: pointer;
+}
+ul li:active{
+	
+-ms-transform: rotate(5deg); /* IE 9 */
+-webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+transform: rotate(5deg);
+}
+
+#todoListWrapper{
+	width: 960px;
+	text-align: center;
+}
+#todoList:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+#todoList ul{
+	width: 14.28%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#todoList li{
+	background: none;
+	padding: 5px;
+	border: none;
+	margin: 0;
+	text-align: left;
+	font-size: 12px;
+}
+#todoList li:hover{
+  background: #eee;
+}
+#todoList li.listTitle{
+	background: #444;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border-right: solid 1px white;
+	font-size: 14px;
+}
+#todoList li.listTitle:hover,
+#todoList li.listTitle:active{
+	cursor: default;
+	transform: none;
+	
+}
+#todoList li.emptySpace
+{
+	background: #fc3;
+	border: dashed 1px #777;
+	height: 10px;
+}
+#todoList li.addItem{
+	display: none;
+	position: absolute;
+	top: 0;
+	background:none;
+}
+#todoList ul:hover li.addItem{
+	display: block;
+}
+#todoList li.addItem input{
+	width: 100%;
+	padding: 4px;
+	
+}
+#todoList li.addItem:active{
+	transform: none;
+	
+}
+
+#trash{
+	background: rgba(178,73,38,0.7);
+	height: 200px;
+	width: 400px;
+	margin:50px auto auto;
+	text-align: center;
+	line-height: 200px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
